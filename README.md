@@ -14,7 +14,8 @@ The goal is to **build a scalable and automated sales analytics system** for bus
 
 ```mermaid
 flowchart TD
-    A[📥 Raw CSV Data (Kaggle)] --> B[🧹 Python ETL Script]
-    B --> C[(🗄 PostgreSQL Database)]
-    C --> D[📈 Power BI Dashboard]
-    D --> E[💡 Business Insights]
+    A[Raw CSV Data (Kaggle)] --> B[Python ETL Script]
+    B --> C[(PostgreSQL Database)]
+    C --> D[Power BI Dashboard]
+    D --> E[Business Insights]
+
