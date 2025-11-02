@@ -14,7 +14,7 @@ The goal is to **build a scalable and automated sales analytics system** for der
 
 ```mermaid
 flowchart TD
-    A[Raw Sales Data (Kaggle CSV)] --> B[Python ETL Script 🐍]
-    B --> C[(PostgreSQL Database 🐘)]
-    C --> D[Power BI Dashboard 📈]
-    D --> E[Actionable Business Insights 💡]
+    A[Raw Sales Data (Kaggle CSV)] --> B[Python ETL Script]
+    B --> C[(PostgreSQL Database)]
+    C --> D[Power BI Dashboard]
+    D --> E[Actionable Business Insights]
